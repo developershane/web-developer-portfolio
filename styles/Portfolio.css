@@ -64,10 +64,10 @@ nav a {
 /*header related styles*/
 .header {
     background-color: #fff8f3;
-    background-image: url('../img/b-final-removebg-preview.png');
+    background-image: url('../img/b-final-removebg-preview.png') url('../img/icons/developer.png');
     background-size: 550px 320px;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 
 }
 
