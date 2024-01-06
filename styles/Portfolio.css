@@ -104,21 +104,57 @@ nav a {
 }
 
 /*Main section styles*/
-main{
-    max-width: 1140px; margin: 0 auto;
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
-#what{
-    padding: 30px 150px; 
+
+main section {
+    margin-top: 130px;
 }
+
+/*Skills related styles*/
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 6px 50px 0;
+}
+
+.skill-des {
+    color: #757575;
+
+}
+
+#what {
+    padding: 30px 150px;
+}
+
 /*about section styles*/
 .about {
     padding: 130px;
     border-radius: 10px;
-    background-color: #f5f3ff; margin-top: 130px 0;
+    background-color: #f5f3ff;
+    margin-top: 130px 0;
 }
-.about-info-container{
-    display: flex; justify-content: space-around;
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
+}
+
+/*resume section styles*/
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
