@@ -104,10 +104,21 @@ nav a {
 }
 
 /*Main section styles*/
-
+main{
+    max-width: 1140px; margin: 0 auto;
+}
+#what{
+    padding: 30px 150px; 
+}
 /*about section styles*/
 .about {
     padding: 130px;
     border-radius: 10px;
     background-color: #f5f3ff; margin-top: 130px 0;
+}
+.about-info-container{
+    display: flex; justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
